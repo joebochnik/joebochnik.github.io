@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Joe Bochnik | Data Scientist | Machine Learning Engineer</title>
+  <meta name="description" content="Joe Bochnik — Data Scientist | Machine Learning Engineer. Portfolio and projects." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="container">
+    <div class="top">
+      <div>
+        <h1>Joe Bochnik</h1>
+        <p class="subtitle">Data Scientist | Machine Learning Engineer</p>
+        <p class="tagline">
+          Full-stack software engineer with an M.S. in Data Science, focused on end-to-end ML systems,
+          time-aware validation, and decision-focused model evaluation.
+        </p>
+        <div class="links">
+          <a class="btn" href="https://github.com/joebochnik" target="_blank" rel="noreferrer">GitHub</a>
+          <a class="btn" href="assets/Joe_Bochnik_Resume.pdf" target="_blank" rel="noreferrer">Resume (PDF)</a>
+          <a class="btn ghost" href="mailto:joebochnik5@gmail.com">Email</a>
+          <a class="btn ghost" href="https://www.linkedin.com/in/joseph-bochnik-401473178" target="_blank" rel="noreferrer">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section>
+      <h2>Featured Projects</h2>
+
+      <div class="grid">
+        <article class="card">
+          <h3>MLB Home Run Prediction System (Thesis)</h3>
+          <p class="muted">
+            Rare-event prediction using historical + contextual factors with time-aware validation,
+            probability calibration, and walk-forward backtesting. Evaluation emphasizes decision quality
+            (e.g., edge/ROI) rather than accuracy alone.
+          </p>
+          <ul>
+            <li>Time-aware splits + walk-forward evaluation to reduce leakage</li>
+            <li>Class imbalance handling + calibrated probabilities for decision-making</li>
+            <li>Model comparisons and ROI-style simulations</li>
+          </ul>
+          <div class="cardlinks">
+            <a href="https://github.com/joebochnik/mlb-home-run-prediction" target="_blank" rel="noreferrer">Repo</a>
+            <a href="assets/Thesis.pdf" target="_blank" rel="noreferrer">Thesis PDF</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <h3>Project #2 (Placeholder)</h3>
+          <p class="muted">Add your next strongest, end-to-end project here.</p>
+          <ul>
+            <li>1–2 impact bullets</li>
+            <li>Clear evaluation approach</li>
+            <li>Link to code + (optional) short write-up</li>
+          </ul>
+          <div class="cardlinks">
+            <a href="https://github.com/YOUR_GITHUB_USERNAME/PROJECT_REPO" target="_blank" rel="noreferrer">Repo</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <h3>Project #3 (Placeholder)</h3>
+          <p class="muted">An engineering-heavy ML system is a great complement.</p>
+          <ul>
+            <li>ETL / feature pipeline</li>
+            <li>Model training + evaluation</li>
+            <li>Serving / automation (if applicable)</li>
+          </ul>
+          <div class="cardlinks">
+            <a href="https://github.com/YOUR_GITHUB_USERNAME/PROJECT_REPO" target="_blank" rel="noreferrer">Repo</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <div class="grid skills">
+        <div class="card">
+          <h3>Modeling</h3>
+          <p class="muted">Tree-based models, logistic regression, SVMs, calibration, class imbalance, time-aware validation.</p>
+        </div>
+        <div class="card">
+          <h3>Data</h3>
+          <p class="muted">SQL, ETL, feature engineering, data quality checks, reproducible pipelines.</p>
+        </div>
+        <div class="card">
+          <h3>Tools</h3>
+          <p class="muted">Python, pandas, NumPy, scikit-learn, XGBoost/LightGBM, Git.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p class="muted">© <span id="year"></span> Joe Bochnik</p>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
