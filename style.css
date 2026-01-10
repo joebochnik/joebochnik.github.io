@@ -81,8 +81,27 @@ h2{
   border-top:1px solid var(--line);
 }
 
+.exp-header{
+  display:flex;
+  justify-content:space-between;
+  align-items:baseline;
+  flex-wrap:wrap;
+  gap:8px;
+}
+.company{
+  margin:0 0 8px;
+  color:var(--accent);
+  font-weight:500;
+}
+.highlight{
+  margin:4px 0 0;
+  color:var(--accent);
+  font-weight:600;
+}
+
 @media (min-width: 820px){
   .skills .card{grid-column: span 4;}
+  .education .card{grid-column: span 6;}
 }
 
 .footer{
